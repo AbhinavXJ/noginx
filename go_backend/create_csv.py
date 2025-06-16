@@ -4,7 +4,8 @@ import pandas as pd
 # Load 10% KDDCup99 dataset
 data = fetch_kddcup99(percent10=True, as_frame=True)
 df = data.frame.copy()
-df['target'] = data.target 
+df['target'] = data.target
+#hi
 
 
 # Drop missing values
