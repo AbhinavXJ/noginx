@@ -10,21 +10,21 @@ A real-time NGINX anomaly detection and alert system.
 - It will automatically capture logs from "/var/log/nginx/access.log", this is where Unix stores its NGINX logs.
 - Make sure you are in the root directory ie noginx
 - Create a python virtual env using
- ```console 
-  python3 -m venv venv
-  ```
+    ```console 
+    python3 -m venv venv
+    ```
 - Download all the dependencies using
     ```console
         pip install -r requirements.txt
     ```
 
 - Make a .env file, store it at root, it will include these fields:-
- ```json
-    PREDICT_ONE_URL = "http://127.0.0.1:8000/predict_one"
-    NOGINX_MAIL_ID = "****@gmail.com"
-    NOGINX_MAIL_PASSWORD = "*** *** *** ***"
-    RECEIVER_MAIL_ID = "***@gmail.com"
- ```
+    ```json
+        PREDICT_ONE_URL = "http://127.0.0.1:8000/predict_one"
+        NOGINX_MAIL_ID = "****@gmail.com"
+        NOGINX_MAIL_PASSWORD = "*** *** *** ***"
+        RECEIVER_MAIL_ID = "***@gmail.com"
+    ```
 - Make sure you are in the root directory
 - Start the server
 - ```console
@@ -91,13 +91,13 @@ A real-time NGINX anomaly detection and alert system.
      ```
     
 - Response format
-```json
-        [
-            {
-                "anomaly": false
-            }
-        ]
-```
+    ```json
+            [
+                {
+                    "anomaly": false
+                }
+            ]
+    ```
 
 ## On detecting anomaly
  - It alerts the system by sending it a notification
