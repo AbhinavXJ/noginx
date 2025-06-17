@@ -8,6 +8,16 @@ A real-time NGINX anomaly detection and alert system.
 # Steps to Run noginx
 - Make sure you have NGINX installed ( Did i really have to mention that?)
 - It will automatically capture logs from "/var/log/nginx/access.log", this is where Unix stores its NGINX logs.
+- Make sure you are in the root directory ie noginx
+- Create a python virtual env using
+ ```console 
+  python3 -m venv venv
+  ```
+- Download all the dependencies using
+    ```console
+        pip install -r requirements.txt
+    ```
+
 - Make a .env file, store it at root, it will include these fields:-
  ```json
     PREDICT_ONE_URL = "http://127.0.0.1:8000/predict_one"
