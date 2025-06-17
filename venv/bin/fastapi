@@ -1,4 +1,4 @@
-#!/home/abhi/PROJECTS/NetSentry/venv/bin/python3
+#!/home/abhi/PROJECTS/noginx/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
