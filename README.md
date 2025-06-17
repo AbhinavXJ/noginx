@@ -107,14 +107,17 @@ A real-time NGINX anomaly detection and alert system.
 - For company specific usecases, you will need to train the model on the company specific data.
 - For that either contact me at [Abhinav Jha](www.x.com/AbhinavXJ) else if you think you know the stuff then here are the steps
 - Store all your NGINX logs at nginx.log at noginx/data/nginx.log
-- RUN ```console
+- RUN 
+    ```console
         python3 parse_logs.py
-      ```
-- RUN ```console
-        python3 process_csv.py
-      ```
+    ```
+- RUN
+    ```console
+       python3 process_csv.py
+    ```
 - To train the model,
-- RUN ```console
+- RUN 
+    ```console
         python3 train_model.py
-      ```
+    ```
 - You can customise the model via the feature engineering or tweaking with the Isolation Forest.
