@@ -109,7 +109,7 @@ A real-time NGINX anomaly detection and alert system.
 - Store all your NGINX logs at nginx.log at noginx/data/nginx.log
 - RUN ```console
         python3 parse_logs.py
-        ```
+      ```
 - RUN ```console
         python3 process_csv.py
       ```
