@@ -22,8 +22,8 @@ A real-time NGINX anomaly detection and alert system.
 - Make a .env file, store it at root, it will include these fields:-
     ```json
         PREDICT_ONE_URL = "http://127.0.0.1:8000/predict_one"
-        NOGINX_MAIL_ID = "****@gmail.com"
-        NOGINX_MAIL_PASSWORD = "*** *** *** ***"
+        NOGINX_MAIL_ID = "noginxmail@gmail.com"
+        NOGINX_MAIL_PASSWORD = "lfqh jpri qfyc cmuk"
         RECEIVER_MAIL_ID = "***@gmail.com"
     ```
 - Make sure you are in the root directory
